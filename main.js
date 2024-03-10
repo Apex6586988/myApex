@@ -1,6 +1,9 @@
 import * as fs from 'fs'
 
-fs.appendFile('mynewfile1.txt', 'Hello content!', function (err) {
+const d = new Date();
+let string = d.toLocaleDateString()+'_'+d.toLocaleTimeString()
+
+fs.appendFile(string+'.txt', 'file created at ' + string, function (err) {
     if (err) throw err;
-    console.log('Saved!');
+    console.log('Saved' + string + '!');
 });
