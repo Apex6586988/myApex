@@ -1,0 +1,23 @@
+{
+  "name": "apex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apex6586988/myApex.git"
+  },
+  "keywords": [
+    "apex"
+  ],
+  "author": "Apex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apex6586988/myApex/issues"
+  },
+  "homepage": "https://github.com/Apex6586988/myApex#readme"
+}
